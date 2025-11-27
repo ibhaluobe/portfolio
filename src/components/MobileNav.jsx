@@ -43,7 +43,7 @@ const MobileNav = ({ openMenu, resume, handleOpenMenu, setOpenMenu }) => {
             <Link
               to={resume}
               target="_blank"
-              download="abegunde-resume.pdf"
+              download="eichie-resume.pdf"
               className="group flex items-center gap-2"
             >
               <span className="flex h-4 w-4 items-center justify-center rounded-full bg-main-100 bg-opacity-20 duration-300 after:h-2 after:w-2 after:rounded-full after:bg-main-100 after:shadow-sm group-hover:scale-75"></span>

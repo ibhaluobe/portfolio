@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 import one from "../assets/1.webp";
 import two from "../assets/2.jpg";
+import four from "../assets/4.jpg";
 import three from "../assets/3.jpg";
 
 const testimonials = [
@@ -9,19 +10,25 @@ const testimonials = [
     photo: one,
     client: "Nate Nuduka",
     message:
-      "Thanks for the great frontend design work on my WordPress site! I appreciate your commitment, communication, and patience with my reviews. The final webpage looks good, and I'll definitely use your services again.",
+      "Working with Eichie on our React project was seamless. He writes clean, maintainable code, and his proactive approach helped us resolve issues before they became problems. I’d gladly work with him again on any project.",
   },
   {
-    photo: two,
-    client: "Stella James",
+    photo: four,
+    client: "Timilehin Sunday",
     message:
-      "Atims fixed multiple issues on my WordPress site with exceptional service. Fast delivery & effective communication were impressive throughout the process. I highly recommend their reliable and professional WordPress support.",
+      "Collaborating with Eichie has been a pleasure. He communicates clearly, contributes innovative ideas, and always ensures the team meets deadlines. His coding standards and attention to detail make him a reliable teammate.",
   },
   {
     photo: three,
     client: "Joe West",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga numquam provident at ad est magnam nobis sunt excepturi maiores atque quos explicabo rerum facilis exercitationem tenetur voluptatum, iste voluptas!",
+      "Eichie delivered an excellent website for our startup. He was responsive, professional, and guided us through the entire process. The final product exceeded our expectations and added real value to our business.",
+  },
+  {
+    photo: two,
+    client: "Sarah Lee",
+    message:
+      "Eichie consistently demonstrates curiosity, discipline, and technical skill. He quickly grasps complex concepts and applies them effectively in his projects. His growth mindset and problem-solving ability make him stand out as a promising developer.",
   },
 ];
 

@@ -1,9 +1,9 @@
 import { BsLinkedin } from "react-icons/bs";
-import { BsBehance } from "react-icons/bs";
+// import { BsBehance } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
-import Logo from "../assets/logo.svg";
+// import { BsInstagram } from "react-icons/bs";
+import Eichie from "../assets/eichie.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -19,15 +19,15 @@ const Footer = () => {
           <div className="flex flex-col items-center justify-center gap-y-8">
             <a href="#">
               <img
-                src={Logo}
-                className="footer-logo"
-                alt="Abegunde Timilehin Logo"
+                src={Eichie}
+                className="footer-logo w-[90px] sm:w-[100px]"
+                alt="Eichie Ibhaluobe Logo"
               />
             </a>
 
             <div className="social flex items-center justify-center gap-5">
               <Link
-                to="https://www.linkedin.com/in/timilehin-abegunde"
+                to="https://www.linkedin.com/in/ibhaluobe-john"
                 target="_blank"
                 aria-label="linkedin"
               >
@@ -36,14 +36,14 @@ const Footer = () => {
                   className="fill-white duration-300 hover:fill-main-100"
                 />
               </Link>
-              <Link to="#" target="_blank" aria-label="behance">
+              {/* <Link to="#" target="_blank" aria-label="behance">
                 <BsBehance
                   size={20}
                   className="fill-white duration-300 hover:fill-main-100"
                 />
-              </Link>
+              </Link> */}
               <Link
-                to="https://github.com/atimscreative"
+                to="https://github.com/ibhaluobe"
                 target="_blank"
                 aria-label="github"
               >
@@ -53,7 +53,7 @@ const Footer = () => {
                 />
               </Link>
               <Link
-                to="https://x.com/atimscreatives"
+                to="https://x.com/ibhaluobeE"
                 target="_blank"
                 aria-label="twitter-x"
               >
@@ -62,8 +62,8 @@ const Footer = () => {
                   className="fill-white duration-300 hover:fill-main-100"
                 />
               </Link>
-              <Link
-                to="https://instagram.com/atimscreatives"
+              {/* <Link
+                to="https://instagram.com/itzibhaluobe"
                 target="_blank"
                 aria-label="instagram"
               >
@@ -71,11 +71,11 @@ const Footer = () => {
                   size={20}
                   className="fill-white duration-300 hover:fill-main-100"
                 />
-              </Link>
+              </Link> */}
             </div>
 
             <p className="copyright mt-10 text-balance text-center">
-              Designed and Developed by Timilehin Abegunde &copy; {currentYear}.
+              Designed and Developed by Eichie Ibhaluobe &copy; {currentYear}.
               All Rights Reserved.
             </p>
           </div>

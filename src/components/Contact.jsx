@@ -31,16 +31,16 @@ const Contact = () => {
               <div className="lg:mb-6">
                 <div className=" mt-3 grid grid-cols-[32px_1fr] items-center">
                   <BsEnvelope size={20} />
-                  <p>timilehinsunday3@gmail.com</p>
+                  <p>eichieibhaluobe@gmail.com</p>
                 </div>
 
                 <Link
-                  to="https://wa.link/32g21v"
+                  to="https://wa.link/1c3b09"
                   target="_blank"
                   className="mt-3 grid grid-cols-[32px_1fr] items-center"
                 >
                   <BsWhatsapp size={20} />
-                  <span>+2348089134442</span>
+                  <span>+2349138854196</span>
                 </Link>
               </div>
             </div>

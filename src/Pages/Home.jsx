@@ -8,7 +8,7 @@ import Reviews from "../components/Reviews";
 import Services from "../components/Services";
 import ScrollReveal from "scrollreveal";
 import MobileNav from "../components/MobileNav";
-import Resume from "../assets/Abegunde-Resume.pdf";
+import Resume from "../assets/Eichie-Resume.pdf";
 
 const Home = () => {
   const [openMenu, setOpenMenu] = useState(false);

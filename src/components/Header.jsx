@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
-import Logo from "../assets/logo.svg";
+import Eichie from "../assets/eichie.png";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { IoCloseOutline } from "react-icons/io5";
 import { BsArrowUpShort } from "react-icons/bs";
 import { useEffect, useState } from "react";
-import Resume from "../assets/Abegunde-Resume.pdf";
+import Resume from "../assets/Eichie-Resume.pdf";
 
 // eslint-disable-next-line react/prop-types
 const Header = ({ openMenu, handleOpenMenu }) => {
@@ -40,9 +40,9 @@ const Header = ({ openMenu, handleOpenMenu }) => {
         <nav className="wrapper flex items-center justify-between">
           <Link to="/">
             <img
-              src={Logo}
-              className="nav-logo w-[100px] sm:w-[120px]"
-              alt="Abegunde Timilehin Logo"
+              src={Eichie}
+              className="nav-logo w-[90px] sm:w-[100px]"
+              alt="Eichie John Logo"
             />
           </Link>
           <div className="hidden text-neutral-100 lg:inline-flex lg:gap-10">
@@ -63,7 +63,7 @@ const Header = ({ openMenu, handleOpenMenu }) => {
           <Link
             to={Resume}
             target="_blank"
-            download="abegunde-resume.pdf"
+            download="eichie-resume.pdf"
             className="resume group hidden items-center gap-2 lg:flex"
           >
             <span className="flex h-4 w-4 items-center justify-center rounded-full bg-main-100 bg-opacity-20 duration-300 after:h-2 after:w-2 after:rounded-full after:bg-main-100 after:shadow-sm group-hover:scale-75"></span>

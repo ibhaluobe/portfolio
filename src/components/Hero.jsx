@@ -1,4 +1,4 @@
-import ProfilePic from "../assets/profile-pic.png";
+import John from "../assets/john.png";
 import { BsArrowUpRight } from "react-icons/bs";
 import { Link as ScrollLink } from "react-scroll";
 
@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="wrapper z-20 flex h-full items-center justify-center">
         <div className="flex flex-col-reverse items-center justify-center lg:flex-row-reverse lg:justify-center lg:gap-x-14">
           <div className="mb-8 text-center sm:mx-auto sm:w-10/12 md:w-[37.5rem] lg:mx-0 lg:w-[50%] lg:text-left">
-            <p className="hero-intro">Hi, I&apos;m Timilehin</p>
+            <p className="hero-intro">Hi, I&apos;m Eichie</p>
             <h1 className="hero-title mb-4 mt-1 text-3xl font-bold leading-tight md:text-4xl md:leading-[120%] lg:text-5xl lg:leading-[125%]">
               Front-end Developer <br />& Website Designer
             </h1>
@@ -44,8 +44,8 @@ const Hero = () => {
           {/* PROFILE IMAGE */}
           <div className="hero-img mb-8 flex h-[200px] w-[200px] items-center justify-center rounded-full bg-neutral-900 bg-opacity-50 backdrop-blur-2xl lg:mb-0 lg:h-[400px] lg:w-[400px]">
             <img
-              src={ProfilePic}
-              alt="Abegunde Timilehin Photo"
+              src={John}
+              alt="Eichie Ibhaluobe Photo"
               className="h-[150px] w-[150px] rounded-full border-[6px] bg-opacity-25 bg-gradient-to-b from-neutral-800 to-neutral-900 object-cover object-top backdrop-blur-2xl lg:h-[300px] lg:w-[300px]"
             />
           </div>
