@@ -1,6 +1,10 @@
 import John from "../assets/john.png";
 import { BsArrowUpRight } from "react-icons/bs";
 import { Link as ScrollLink } from "react-scroll";
+import { Link } from "react-router-dom";
+import { BsGithub } from "react-icons/bs";
+import { BsTwitterX } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -15,7 +19,7 @@ const Hero = () => {
             <h1 className="hero-title mb-4 mt-1 text-3xl font-bold leading-tight md:text-4xl md:leading-[120%] lg:text-5xl lg:leading-[125%]">
               Front-end Developer <br />& Website Designer
             </h1>
-            <p className="hero-text mb-8 text-balance">
+            <p className="hero-text mb-6 text-balance">
               With a talent for mixing digital creativity and development, I
               transform ideas into visually stunning and user-friendly websites.
               {/* I'm Brittany Chiang, a design-minded front-end software engineer focused on building beautiful interfaces & experiences 
@@ -23,6 +27,39 @@ const Hero = () => {
               
               */}
             </p>
+            <div className="social flex items-center justify-center gap-5 mb-7 lg:justify-start">
+              <Link
+                to="https://www.linkedin.com/in/ibhaluobe-john"
+                target="_blank"
+                aria-label="linkedin"
+              >
+                <BsLinkedin
+                  size={20}
+                  className="fill-white duration-300 hover:fill-main-100"
+                />
+              </Link>
+              <Link
+                to="https://github.com/ibhaluobe"
+                target="_blank"
+                aria-label="github"
+              >
+                <BsGithub
+                  size={20}
+                  className="fill-white duration-300 hover:fill-main-100"
+                />
+              </Link>
+              <Link
+                to="https://x.com/ibhaluobeE"
+                target="_blank"
+                aria-label="twitter-x"
+              >
+                <BsTwitterX
+                  size={20}
+                  className="fill-white duration-300 hover:fill-main-100"
+                />
+              </Link>
+      
+            </div>
             <div className="hero-btns">
               <ScrollLink
                 to="contact"

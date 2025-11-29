@@ -30,7 +30,7 @@ const Services = () => {
       <div className="wrapper">
         <Heading
           text="Crafting excellence with passion. Explore my services for frontend development, tailored solutions designed with love for what I do."
-          title="What actually i love to do"
+          title="What I actually love to do"
         />
 
         <div className="flex w-full flex-wrap justify-center gap-8">

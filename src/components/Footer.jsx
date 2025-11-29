@@ -75,7 +75,7 @@ const Footer = () => {
             </div>
 
             <p className="copyright mt-10 text-balance text-center">
-              Designed and Developed by Eichie Ibhaluobe &copy; {currentYear}.
+              Designed and Developed by Eichie John &copy; {currentYear}.
               All Rights Reserved.
             </p>
           </div>
